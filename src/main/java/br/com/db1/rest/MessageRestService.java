@@ -11,7 +11,7 @@ public class MessageRestService {
 	@GET
 	@Path("/{param}")
 	public Response printMessage(@PathParam("param") String msg) {
-		String result = "Restful example : " + msg;
+		String result = "Deu bom !!!! : " + msg;
 		return Response.status(200).entity(result).build();
 	}
 
