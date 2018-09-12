@@ -46,7 +46,7 @@ public class ProdutoRest {
 		String result = "";
 		
 		for(Produto produto: produtos){
-			result = result + " - " + produto.toString();
+			result = result + " - " + produto.toString() + "\r";
 		}
 		
 		return Response.status(201).entity(result).build();

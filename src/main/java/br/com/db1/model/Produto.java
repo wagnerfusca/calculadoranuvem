@@ -37,7 +37,7 @@ public class Produto {
 
 	@Override
 	public String toString() {
-		return "Produto [nome=" + nome + ", quantidade=" + quantidade + "]";
+		return "Formando(a) DB1 Start: " + nome ;
 	}
 
 	
