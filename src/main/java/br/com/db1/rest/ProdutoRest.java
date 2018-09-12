@@ -1,5 +1,7 @@
 package br.com.db1.rest;
 
+import java.util.List;
+
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
@@ -32,6 +34,21 @@ public class ProdutoRest {
 		ProdutoDao dao = new ProdutoDao();
 		dao.save(produto);
 		String result = "Product created 123: " + produto;
+		return Response.status(201).entity(result).build();
+
+	}
+	
+	@GET
+	@Path("/listar")
+	public Response listarProduto() {
+		ProdutoDao dao = new ProdutoDao();
+		List<Produto> produtos = dao.list();
+		String result = "";
+		
+		for(Produto produto: produtos){
+			result = result + " - " + produto.toString();
+		}
+		
 		return Response.status(201).entity(result).build();
 
 	}
