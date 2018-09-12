@@ -16,7 +16,7 @@ http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd" >
        	 	<property name="hibernate.connection.url" value="jdbc:postgresql://ec2-174-129-32-37.compute-1.amazonaws.com:5432/d558sth9l1v0n3?username=hohxbqvpbwerks&amp;password=949dc650ad55ad2e42559e8660d5be35475d292c64c5874319f89bd2f446beb1&amp;ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory"/>
 
 <property name="hibernate.archive.autodetection" value="class"/>
-			<property name="hibernate.hbm2ddl.auto" value="create" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
 			<property name="hibernate.show_sql" value="false" />
 			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
 
