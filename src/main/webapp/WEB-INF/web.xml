@@ -14,7 +14,9 @@
 
 	<context-param>
 		<param-name>resteasy.resources</param-name>
-		<param-value>br.com.db1.rest.MessageRestService</param-value>
+		<param-value>br.com.db1.rest.MessageRestService,
+					 br.com.db1.rest.ProdutoRest
+		</param-value>
 	</context-param>
 
 	<listener>
