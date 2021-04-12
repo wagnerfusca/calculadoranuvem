@@ -9,7 +9,7 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<tomcat.version>9.0.0.M10</tomcat.version>
+		<tomcat.version>9.0.45</tomcat.version>
 	</properties>
 
 
@@ -73,7 +73,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.12</version>
+			<version>4.13.2</version>
 			<scope>test</scope>
 		</dependency>
 
