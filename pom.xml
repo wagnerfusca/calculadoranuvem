@@ -9,7 +9,7 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<tomcat.version>9.0.45</tomcat.version>
+		<tomcat.version>9.0.83</tomcat.version>
 	</properties>
 
 
